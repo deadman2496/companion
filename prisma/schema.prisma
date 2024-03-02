@@ -50,7 +50,7 @@ model Message {
   id               String @ id @default(uuid())
   role             Role
   content          String @db.Text
-  createAt           DateTime @default(now())
+  createdAt        DateTime @default(now())
   updatedAt        DateTime
 
   companionId      String
