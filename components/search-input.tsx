@@ -5,7 +5,7 @@ import  qs  from "query-string";
 import { Input } from "./ui/input";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ChangeEventHandler, useEffect, useState } from "react";
-import { useDebounce } from "@/app/hooks/use-debounce";
+import { useDebounce } from "@/hooks/use-debounce";
 import queryString from "query-string";
 
 export const SearchInput = () => {
