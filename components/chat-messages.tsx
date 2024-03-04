@@ -47,7 +47,7 @@ const scrollRef = useRef<ElementRef<"div">>(null);
                     key={message.content}
                     role={message.role}
                     content={message.content}
-                    src={message.src}
+                    src={companion.src}
                 />
             ))}
             {isLoading && (
