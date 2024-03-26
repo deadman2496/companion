@@ -23,7 +23,7 @@ export const ProModal = () => {
         try {
             setLoading(true);
 
-            const response = await axios.get("/api/stripe");
+            const response = await axios.get("https://buy.stripe.com/3cs03G2pbcWX0kU5kk");
 
             window.location.href = response.data.url;
         } catch (error) {
